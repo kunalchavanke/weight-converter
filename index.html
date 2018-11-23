@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin-top:5%;
+            background:#333;
+            color:#fff;
+            }
+    </style>
+
+    <title>Weight Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="kgInput" type="number" class="form-control form-control-lg" placeholder="Enter Kgs...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card text-white bg-primary mb-2">
+                        <div class="card-body">
+                            <h4>Grams:</h4>
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-success mb-2">
+                        <div class="card-body">
+                            <h4>Pounds:</h4>
+                            <div id="lbsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-danger mb-2">
+                        <div class="card-body">
+                            <h4>Ounces:</h4>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="converter.js"></script>
+
+</html>
